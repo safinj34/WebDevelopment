@@ -1,0 +1,4 @@
+block inline difference
+display none
+visibility hidden        2 tags for hiding 
+go back ../ to select file location

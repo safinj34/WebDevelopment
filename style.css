@@ -58,3 +58,23 @@
       color: #FF1493;
     }
   }
+nav > ul > li {display: inline;margin-right: 10px;}
+nav > ul > li > a {text-decoration: none;}
+#Html {margin-bottom: 10px;}
+footer {text-align: center;margin: 10px;}
+table{border-collapse: collapse;}
+td {border: 1px solid black;padding: 10px;}
+thead{text-align: center;}
+fieldset {margin-bottom: 10px;}
+tfoot{text-align: center;}
+nav > ul > li :hover{background-color: rgba(102, 51, 153, 0.342);}
+nav > ul {display: flex;}
+.dropdown {display: none;list-style: none;}
+
+nav ul li :hover {display: block;}
+
+nav  ul :hover > .dropdown {display: block;}
+
+nav  ul :hover > .dropdown {display: block;}
+
+

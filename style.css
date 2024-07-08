@@ -2,7 +2,7 @@
     animation: color 5s infinite linear;
   
   }
-  @keyframes color {
+ .child @keyframes color {
     12.5% {
       color: #FF0000;
     }
@@ -76,5 +76,9 @@ nav ul li :hover {display: block;}
 nav  ul :hover > .dropdown {display: block;}
 
 nav  ul :hover > .dropdown {display: block;}
+
+.parent{font-size: 30px;display: flex;margin-top: 10px;gap: 30px;justify-content: center;}
+
+.child {border: 10px solid;border-radius: 10px;box-shadow: 10px 10px 10px;animation: color 5s infinite linear;}
 
 

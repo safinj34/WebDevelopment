@@ -58,8 +58,7 @@
       color: #FF1493;
     }
   }
-nav > ul > li {display: inline;margin-right: 10px;}
-nav > ul > li > a {text-decoration: none;}
+nav > ul > li {text-decoration: none;display: inline-block;margin-right: 10px;}
 #Html {margin-bottom: 10px;}
 footer {text-align: center;margin: 10px;}
 table{border-collapse: collapse;}
@@ -67,18 +66,31 @@ td {border: 1px solid black;padding: 10px;}
 thead{text-align: center;}
 fieldset {margin-bottom: 10px;}
 tfoot{text-align: center;}
-nav > ul > li :hover{background-color: rgba(102, 51, 153, 0.342);}
-nav > ul {display: flex;}
+nav > ul {display: inline-block;}
 .dropdown {display: none;list-style: none;}
 
 nav ul li :hover {display: block;}
 
 nav  ul :hover > .dropdown {display: block;}
 
-nav  ul :hover > .dropdown {display: block;}
 
 .parent{font-size: 30px;display: flex;margin-top: 10px;gap: 30px;justify-content: center;}
 
 .child {border: 10px solid;border-radius: 10px;box-shadow: 10px 10px 10px;animation: color 5s infinite linear;}
+
+.navigation-bar{max-width: 1200px;text-align: end;}
+
+.first-three{position: absolute;left: 40%;}
+
+.textbox:hover{border-radius: 20%;border-color: #FF0000;border-width: 5px;color: green;}
+
+
+
+
+
+
+
+
+
 
 

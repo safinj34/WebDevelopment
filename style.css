@@ -67,7 +67,9 @@ thead{text-align: center;}
 fieldset {margin-bottom: 10px;}
 tfoot{text-align: center;}
 nav > ul {display: inline-block;}
-.dropdown {display: none;list-style: none;}
+.dropdown {display: none;list-style: none;font-size;}
+
+.dropdown :visited{color: #ffffff;}
 
 nav ul li :hover {display: block;}
 
@@ -78,11 +80,24 @@ nav  ul :hover > .dropdown {display: block;}
 
 .child {border: 10px solid;border-radius: 10px;box-shadow: 10px 10px 10px;animation: color 5s infinite linear;}
 
-.navigation-bar{max-width: 1200px;text-align: end;}
+.navigation-bar{position: relative;display: flex;justify-content: end;}
 
-.first-three{position: absolute;left: 40%;}
-
+.first-three{color: #ffffff; position: absolute;left: 40%;font-size: xx-large;top: -40%;color: whitesmoke;}
+.textbox{width: 20%;margin: auto;}
 .textbox:hover{border-radius: 20%;border-color: #FF0000;border-width: 5px;color: green;}
+
+.align-everything{border: 1px solid black;display: flex;flex-direction: column;}
+
+.centered{border: solid red;display: flex;align-items: center;justify-content: space-evenly;flex-direction: column;}
+
+
+#nav-bg-img{border: solid black;transform: translateY(-100px);}
+
+.first-three :visited {color: #ffffff;}
+
+#navigation-bar-img{object-fit: cover;}
+
+#dropdown-color {color: #ffffff;}
 
 
 

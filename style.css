@@ -80,22 +80,23 @@ nav  ul :hover > .dropdown {display: block;}
 
 .child {border: 10px solid;border-radius: 10px;box-shadow: 10px 10px 10px;animation: color 5s infinite linear;}
 
-.navigation-bar{position: relative;display: flex;justify-content: end;}
+.navigation-bar{position: relative;display: flex}
 
 .first-three{color: #ffffff; position: absolute;left: 40%;font-size: xx-large;top: -40%;color: whitesmoke;}
 .textbox{width: 20%;margin: auto;}
 .textbox:hover{border-radius: 20%;border-color: #FF0000;border-width: 5px;color: green;}
 
-.align-everything{border: 1px solid black;display: flex;flex-direction: column;}
+.align-everything{display: flex;flex-direction: column;}
 
-.centered{border: solid red;display: flex;align-items: center;justify-content: space-evenly;flex-direction: column;}
+.centered{display: flex;align-items: center;justify-content: space-evenly;flex-direction: column;}
 
 
-#nav-bg-img{border: solid black;transform: translateY(-100px);}
+
+#nav-bg-img{background-size: cover;background-image: url('licensed-image.jpg');}
 
 .first-three :visited {color: #ffffff;}
 
-#navigation-bar-img{object-fit: cover;}
+
 
 #dropdown-color {color: #ffffff;}
 

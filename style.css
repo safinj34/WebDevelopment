@@ -88,7 +88,7 @@ nav  ul :hover > .dropdown {display: block;}
 
 .align-everything{display: flex;flex-direction: column;}
 
-.centered{display: flex;align-items: center;justify-content: space-evenly;flex-direction: column;margin: 0 auto;}
+.centered{display: flex;align-items: center;justify-content: space-evenly;flex-direction: column;}
 
 
 
